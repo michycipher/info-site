@@ -1,0 +1,173 @@
+body {
+  /*  background-color: #E4F9F5;*/
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  /*you can use the text-align to center your objects that dont have a width  or use the margin property to center the object  putting it  "0 auto 0 auto" width a width property too*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+color:#66BFBF;
+
+
+  /* 1em = 16px =100%*/
+  /* A 100% of a font size is the same as 16px of font size ; so if you want 90px : it is: 90/16=562.5% in other to get 90px */
+}
+
+.computer-image {
+  border-radius: 100px;/* you can shape your image with the border radius property*/
+width: 25%;
+float: left;
+margin-right: 30px;
+}
+
+.chilli-skill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+p{
+  line-height: 2;
+}
+
+
+h2 {
+  color:#66BFBF;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem ;
+    font-weight: normal;
+    padding: 20PX;
+}
+
+h3 {
+  color:#11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+hr {
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin:100px auto;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: #EAF6F6;
+
+}
+
+
+
+.profile-pic {
+  width: 15%;
+  border-radius: 100px;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+
+}
+
+/*
+div{
+  background-color:#E4F9F5;
+  border: solid;
+    height: 600px;
+    width: 80%;
+    margin:auto;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding-top: 20px;
+    padding-left: 200px;
+}*/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50PX 0 20PX;
+}
+
+.skill-row {
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left ;
+  line-height: 2;/* line height is to space the words out*/
+
+}
+
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.buttom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.footer-link{
+  color:#11999E;
+}
+
+.btn {
+
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
